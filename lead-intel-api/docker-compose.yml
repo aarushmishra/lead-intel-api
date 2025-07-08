@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  lead-intel-api:
+    build: .
+    container_name: lead-intel-api
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - lead-intel-network
+
+  # Optional: Add Redis for caching if needed in future
+  # redis:
+  #   image: redis:7-alpine
+  #   container_name: lead-intel-redis
+  #   ports:
+  #     - "6379:6379"
+  #   restart: unless-stopped
+  #   networks:
+  #     - lead-intel-network
+
+networks:
+  lead-intel-network:
+    driver: bridge
+
+volumes:
+  logs: 

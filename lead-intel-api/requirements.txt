@@ -1,0 +1,6 @@
+fastapi==0.116.0
+uvicorn==0.35.0
+pydantic==2.11.7
+geopy==2.4.1
+requests==2.31.0
+pytest==7.4.3

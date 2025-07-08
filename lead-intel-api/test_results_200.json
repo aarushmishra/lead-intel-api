@@ -1,0 +1,2699 @@
+{
+  "summary": {
+    "total_tests": 200,
+    "successful_tests": 200,
+    "failed_tests": 0,
+    "success_rate": 100.0
+  },
+  "performance": {
+    "avg_response_time": 0.0037747466564178466,
+    "max_response_time": 0.054296255111694336,
+    "min_response_time": 0.002225160598754883
+  },
+  "language_distribution": {
+    "English": 200,
+    "Hindi": 40,
+    "Hinglish": 28
+  },
+  "caller_name_distribution": {
+    "Education Advisor": 100,
+    "Rahul Kumar": 14,
+    "Vikram Singh": 10,
+    "Meera Sharma": 17,
+    "Priya Sharma": 11,
+    "Priya Verma": 12,
+    "Rajesh Kumar": 16,
+    "Arjun Mehta": 8,
+    "Anjali Patel": 12
+  },
+  "detailed_results": [
+    {
+      "test_case": "College-specific-1",
+      "success": true,
+      "response_time": 0.013207674026489258,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from HIMT about MCA programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-2",
+      "success": true,
+      "response_time": 0.006922006607055664,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into BBA. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-3",
+      "success": true,
+      "response_time": 0.002916097640991211,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Vikram Singh",
+      "pitch_text": "Hello! This is Vikram from GD Goenka University. I see you're interested in M.Sc. Let me share our offerings.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-4",
+      "success": true,
+      "response_time": 0.003734111785888672,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into MBA. Would you like to know more?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-5",
+      "success": true,
+      "response_time": 0.003219127655029297,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into MCA. Would you like to know more?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-6",
+      "success": true,
+      "response_time": 0.002414226531982422,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Vikram Singh",
+      "pitch_text": "Hello! This is Vikram from GD Goenka University. I see you're interested in M.Tech. Let me share our offerings.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-7",
+      "success": true,
+      "response_time": 0.0037832260131835938,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Priya Sharma",
+      "pitch_text": "Hi, I'm calling from Ajeenkya DY Patil University. I noticed you're interested in B.Tech. Would you like to know more about our programs?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-8",
+      "success": true,
+      "response_time": 0.006394147872924805,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from HIMT about BBA programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-9",
+      "success": true,
+      "response_time": 0.0023131370544433594,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into M.Tech. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-10",
+      "success": true,
+      "response_time": 0.0022890567779541016,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from NIET about B.Tech programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-11",
+      "success": true,
+      "response_time": 0.002947092056274414,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Priya Sharma",
+      "pitch_text": "Hi, I'm calling from Ajeenkya DY Patil University. I noticed you're interested in M.Com. Would you like to know more about our programs?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-12",
+      "success": true,
+      "response_time": 0.0026671886444091797,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Priya Verma",
+      "pitch_text": "Hi, I'm calling from Noida International University. I noticed you're interested in BBA. Would you like to explore our offerings?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-13",
+      "success": true,
+      "response_time": 0.002746105194091797,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into MBA. Would you like to know more?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-14",
+      "success": true,
+      "response_time": 0.002763986587524414,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into BBA. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-15",
+      "success": true,
+      "response_time": 0.0024929046630859375,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Vikram Singh",
+      "pitch_text": "Hello! This is Vikram from GD Goenka University. I see you're interested in B.Sc. Let me share our offerings.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-16",
+      "success": true,
+      "response_time": 0.002557039260864258,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into M.Tech. Let me share our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-17",
+      "success": true,
+      "response_time": 0.0024688243865966797,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into M.Sc. Let me share our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-18",
+      "success": true,
+      "response_time": 0.003525972366333008,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into BBA. Would you like to know more?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-19",
+      "success": true,
+      "response_time": 0.0026481151580810547,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Arjun Mehta",
+      "pitch_text": "Hello! This is Arjun from Sharda University. I see your interest in BCA. Let me tell you about our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-20",
+      "success": true,
+      "response_time": 0.0027379989624023438,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Arjun Mehta",
+      "pitch_text": "Hello! This is Arjun from Sharda University. I see your interest in M.Sc. Let me tell you about our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-21",
+      "success": true,
+      "response_time": 0.0028667449951171875,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Anjali Patel",
+      "pitch_text": "Hi, I'm calling from SAGE University. I noticed your interest in BBA. Would you like to explore our programs?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-22",
+      "success": true,
+      "response_time": 0.0032529830932617188,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into B.Sc. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-23",
+      "success": true,
+      "response_time": 0.002917766571044922,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Arjun Mehta",
+      "pitch_text": "Hello! This is Arjun from Sharda University. I see your interest in B.Sc. Let me tell you about our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-24",
+      "success": true,
+      "response_time": 0.002706766128540039,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Priya Verma",
+      "pitch_text": "Hi, I'm calling from Noida International University. I noticed you're interested in M.Com. Would you like to explore our offerings?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-25",
+      "success": true,
+      "response_time": 0.0026569366455078125,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into M.Tech. Let me share our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-26",
+      "success": true,
+      "response_time": 0.0027990341186523438,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Vikram Singh",
+      "pitch_text": "Hello! This is Vikram from GD Goenka University. I see you're interested in M.Com. Let me share our offerings.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-27",
+      "success": true,
+      "response_time": 0.0023908615112304688,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into B.Tech. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-28",
+      "success": true,
+      "response_time": 0.003158092498779297,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into BBA. Would you like to know more?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-29",
+      "success": true,
+      "response_time": 0.0025811195373535156,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into BCA. Would you like to know more?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-30",
+      "success": true,
+      "response_time": 0.0024602413177490234,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into B.Tech. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-31",
+      "success": true,
+      "response_time": 0.0024230480194091797,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into M.Tech. Let me share our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-32",
+      "success": true,
+      "response_time": 0.0031890869140625,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into MBA. Would you like to know more?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-33",
+      "success": true,
+      "response_time": 0.002743959426879883,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into B.Tech. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-34",
+      "success": true,
+      "response_time": 0.0024619102478027344,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Vikram Singh",
+      "pitch_text": "Hello! This is Vikram from GD Goenka University. I see you're interested in BBA. Let me share our offerings.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-35",
+      "success": true,
+      "response_time": 0.002434968948364258,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into MCA. Let me share our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-36",
+      "success": true,
+      "response_time": 0.0027887821197509766,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Vikram Singh",
+      "pitch_text": "Hello! This is Vikram from GD Goenka University. I see you're interested in BBA. Let me share our offerings.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-37",
+      "success": true,
+      "response_time": 0.002868175506591797,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into BBA. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-38",
+      "success": true,
+      "response_time": 0.0029408931732177734,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into MBA. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-39",
+      "success": true,
+      "response_time": 0.0032172203063964844,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Priya Verma",
+      "pitch_text": "Hi, I'm calling from Noida International University. I noticed you're interested in MCA. Would you like to explore our offerings?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-40",
+      "success": true,
+      "response_time": 0.0027849674224853516,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Arjun Mehta",
+      "pitch_text": "Hello! This is Arjun from Sharda University. I see your interest in M.Sc. Let me tell you about our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-41",
+      "success": true,
+      "response_time": 0.0033838748931884766,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from HIMT about M.Sc programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-42",
+      "success": true,
+      "response_time": 0.004501819610595703,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into M.Sc. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-43",
+      "success": true,
+      "response_time": 0.005557060241699219,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from HIMT about BCA programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-44",
+      "success": true,
+      "response_time": 0.0038979053497314453,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into M.Tech. Let me share our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-45",
+      "success": true,
+      "response_time": 0.0029938220977783203,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Vikram Singh",
+      "pitch_text": "Hello! This is Vikram from GD Goenka University. I see you're interested in B.Com. Let me share our offerings.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-46",
+      "success": true,
+      "response_time": 0.0031881332397460938,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into B.Com. Let me share our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-47",
+      "success": true,
+      "response_time": 0.0042362213134765625,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Anjali Patel",
+      "pitch_text": "Hi, I'm calling from SAGE University. I noticed your interest in B.Com. Would you like to explore our programs?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-48",
+      "success": true,
+      "response_time": 0.0036029815673828125,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from HIMT about MBA programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-49",
+      "success": true,
+      "response_time": 0.0024869441986083984,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Arjun Mehta",
+      "pitch_text": "Hello! This is Arjun from Sharda University. I see your interest in BBA. Let me tell you about our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "College-specific-50",
+      "success": true,
+      "response_time": 0.0030541419982910156,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Vikram Singh",
+      "pitch_text": "Hello! This is Vikram from GD Goenka University. I see you're interested in B.Tech. Let me share our offerings.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "City-specific-1",
+      "success": true,
+      "response_time": 0.003310680389404297,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Kolkata for B.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-2",
+      "success": true,
+      "response_time": 0.003426074981689453,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Kolkata for B.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-3",
+      "success": true,
+      "response_time": 0.0027289390563964844,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Lucknow for BCA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-4",
+      "success": true,
+      "response_time": 0.0032520294189453125,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Jaipur for M.Com.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-5",
+      "success": true,
+      "response_time": 0.0031270980834960938,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Hyderabad for MCA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-6",
+      "success": true,
+      "response_time": 0.003147125244140625,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Mumbai for B.Sc.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-7",
+      "success": true,
+      "response_time": 0.0031280517578125,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Ahmedabad for B.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-8",
+      "success": true,
+      "response_time": 0.0031249523162841797,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into M.Tech. Would you like to know more?",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-9",
+      "success": true,
+      "response_time": 0.002719879150390625,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Mumbai for B.Sc.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-10",
+      "success": true,
+      "response_time": 0.0027251243591308594,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Bangalore for BCA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-11",
+      "success": true,
+      "response_time": 0.0028769969940185547,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Pune for B.Com.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-12",
+      "success": true,
+      "response_time": 0.002608060836791992,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Mumbai for B.Sc.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-13",
+      "success": true,
+      "response_time": 0.0025408267974853516,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Bangalore for B.Sc.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-14",
+      "success": true,
+      "response_time": 0.0026869773864746094,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into MCA. Would you like to know more?",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-15",
+      "success": true,
+      "response_time": 0.0029370784759521484,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Jaipur for M.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-16",
+      "success": true,
+      "response_time": 0.003033876419067383,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Jaipur for B.Sc.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-17",
+      "success": true,
+      "response_time": 0.0028090476989746094,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Jaipur for MCA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-18",
+      "success": true,
+      "response_time": 0.0035898685455322266,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Bangalore for MCA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-19",
+      "success": true,
+      "response_time": 0.003245115280151367,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Lucknow for M.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-20",
+      "success": true,
+      "response_time": 0.003299236297607422,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Pune for B.Com.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-21",
+      "success": true,
+      "response_time": 0.0031769275665283203,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Mumbai for M.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-22",
+      "success": true,
+      "response_time": 0.0029458999633789062,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Ahmedabad for B.Com.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-23",
+      "success": true,
+      "response_time": 0.0029408931732177734,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Chennai for B.Com.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-24",
+      "success": true,
+      "response_time": 0.0029821395874023438,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Kolkata for M.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-25",
+      "success": true,
+      "response_time": 0.003083944320678711,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Hyderabad for M.Com.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-26",
+      "success": true,
+      "response_time": 0.0029740333557128906,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Jaipur for MBA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-27",
+      "success": true,
+      "response_time": 0.0034148693084716797,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Jaipur for BBA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-28",
+      "success": true,
+      "response_time": 0.002225160598754883,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Bangalore for M.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-29",
+      "success": true,
+      "response_time": 0.0022499561309814453,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Lucknow for M.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-30",
+      "success": true,
+      "response_time": 0.0023508071899414062,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Mumbai for BCA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-31",
+      "success": true,
+      "response_time": 0.0024728775024414062,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Chennai for B.Com.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-32",
+      "success": true,
+      "response_time": 0.0026578903198242188,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Delhi for MBA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-33",
+      "success": true,
+      "response_time": 0.0026650428771972656,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Lucknow for BCA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-34",
+      "success": true,
+      "response_time": 0.00321197509765625,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Hyderabad for M.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-35",
+      "success": true,
+      "response_time": 0.0024347305297851562,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Pune for B.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-36",
+      "success": true,
+      "response_time": 0.002466917037963867,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Lucknow for MCA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-37",
+      "success": true,
+      "response_time": 0.0024449825286865234,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Ahmedabad for B.Com.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-38",
+      "success": true,
+      "response_time": 0.002483844757080078,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into MCA. Would you like to know more?",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-39",
+      "success": true,
+      "response_time": 0.002669095993041992,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Pune for M.Sc.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-40",
+      "success": true,
+      "response_time": 0.008744955062866211,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Pune for M.Com.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-41",
+      "success": true,
+      "response_time": 0.002418041229248047,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into BCA. Would you like to know more?",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-42",
+      "success": true,
+      "response_time": 0.0032231807708740234,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Bangalore for B.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-43",
+      "success": true,
+      "response_time": 0.002730131149291992,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Lucknow for B.Com.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-44",
+      "success": true,
+      "response_time": 0.0026922225952148438,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into B.Sc. Would you like to know more?",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-45",
+      "success": true,
+      "response_time": 0.002591848373413086,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Bangalore for BCA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-46",
+      "success": true,
+      "response_time": 0.0026938915252685547,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Ahmedabad for M.Sc.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-47",
+      "success": true,
+      "response_time": 0.002981901168823242,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Kolkata for B.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-48",
+      "success": true,
+      "response_time": 0.02147197723388672,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into MBA. Would you like to know more?",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-49",
+      "success": true,
+      "response_time": 0.027908802032470703,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Kolkata for M.Sc.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "City-specific-50",
+      "success": true,
+      "response_time": 0.054296255111694336,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Chennai for MCA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "State-only-1",
+      "success": true,
+      "response_time": 0.0034148693084716797,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Maharashtra. Are you interested in pursuing B.Com?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-2",
+      "success": true,
+      "response_time": 0.008222818374633789,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Madhya Pradesh. Are you interested in pursuing M.Com?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-3",
+      "success": true,
+      "response_time": 0.0027348995208740234,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Tamil Nadu. Are you interested in pursuing BCA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-4",
+      "success": true,
+      "response_time": 0.0027399063110351562,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Telangana. Are you interested in pursuing B.Tech?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-5",
+      "success": true,
+      "response_time": 0.002438068389892578,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Uttar Pradesh. Are you interested in pursuing MBA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-6",
+      "success": true,
+      "response_time": 0.002598285675048828,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Gujarat. Are you interested in pursuing M.Com?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-7",
+      "success": true,
+      "response_time": 0.0026311874389648438,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Madhya Pradesh. Are you interested in pursuing MBA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-8",
+      "success": true,
+      "response_time": 0.0025942325592041016,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Karnataka. Are you interested in pursuing B.Tech?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-9",
+      "success": true,
+      "response_time": 0.0024356842041015625,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Telangana. Are you interested in pursuing B.Tech?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-10",
+      "success": true,
+      "response_time": 0.0026750564575195312,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in West Bengal. Are you interested in pursuing BBA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-11",
+      "success": true,
+      "response_time": 0.0029790401458740234,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Kerala. Are you interested in pursuing M.Tech?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-12",
+      "success": true,
+      "response_time": 0.003030061721801758,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in West Bengal. Are you interested in pursuing M.Tech?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-13",
+      "success": true,
+      "response_time": 0.003268003463745117,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Gujarat. Are you interested in pursuing M.Tech?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-14",
+      "success": true,
+      "response_time": 0.003116130828857422,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Madhya Pradesh. Are you interested in pursuing M.Tech?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-15",
+      "success": true,
+      "response_time": 0.0029387474060058594,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Tamil Nadu. Are you interested in pursuing B.Tech?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-16",
+      "success": true,
+      "response_time": 0.005388021469116211,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Madhya Pradesh. Are you interested in pursuing MBA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-17",
+      "success": true,
+      "response_time": 0.002561807632446289,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in West Bengal. Are you interested in pursuing B.Sc?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-18",
+      "success": true,
+      "response_time": 0.0026938915252685547,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Rajasthan. Are you interested in pursuing MBA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-19",
+      "success": true,
+      "response_time": 0.0025169849395751953,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Telangana. Are you interested in pursuing B.Com?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-20",
+      "success": true,
+      "response_time": 0.002490997314453125,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Uttar Pradesh. Are you interested in pursuing M.Com?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-21",
+      "success": true,
+      "response_time": 0.0024487972259521484,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Tamil Nadu. Are you interested in pursuing B.Sc?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-22",
+      "success": true,
+      "response_time": 0.002341032028198242,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Karnataka. Are you interested in pursuing M.Tech?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-23",
+      "success": true,
+      "response_time": 0.002712249755859375,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Uttar Pradesh. Are you interested in pursuing BCA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-24",
+      "success": true,
+      "response_time": 0.0030579566955566406,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Rajasthan. Are you interested in pursuing MBA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-25",
+      "success": true,
+      "response_time": 0.0030128955841064453,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in West Bengal. Are you interested in pursuing M.Com?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-26",
+      "success": true,
+      "response_time": 0.0032100677490234375,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Kerala. Are you interested in pursuing M.Com?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-27",
+      "success": true,
+      "response_time": 0.0029320716857910156,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Karnataka. Are you interested in pursuing M.Com?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-28",
+      "success": true,
+      "response_time": 0.0031061172485351562,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Telangana. Are you interested in pursuing BCA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-29",
+      "success": true,
+      "response_time": 0.003180980682373047,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Maharashtra. Are you interested in pursuing B.Sc?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "State-only-30",
+      "success": true,
+      "response_time": 0.002900838851928711,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Madhya Pradesh. Are you interested in pursuing BBA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "College-City-1",
+      "success": true,
+      "response_time": 0.0029230117797851562,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Anjali Patel",
+      "pitch_text": "Hi, I'm calling from SAGE University. I noticed your interest in M.Tech. Would you like to explore our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-2",
+      "success": true,
+      "response_time": 0.0029382705688476562,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from HIMT about M.Sc programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-3",
+      "success": true,
+      "response_time": 0.00855708122253418,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Priya Sharma",
+      "pitch_text": "Hi, I'm calling from Ajeenkya DY Patil University. I noticed you're interested in B.Sc. Would you like to know more about our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-4",
+      "success": true,
+      "response_time": 0.003153085708618164,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Vikram Singh",
+      "pitch_text": "Hello! This is Vikram from GD Goenka University. I see you're interested in MCA. Let me share our offerings.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-5",
+      "success": true,
+      "response_time": 0.003113985061645508,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Vikram Singh",
+      "pitch_text": "Hello! This is Vikram from GD Goenka University. I see you're interested in B.Com. Let me share our offerings.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-6",
+      "success": true,
+      "response_time": 0.003319978713989258,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Priya Verma",
+      "pitch_text": "Hi, I'm calling from Noida International University. I noticed you're interested in BCA. Would you like to explore our offerings?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-7",
+      "success": true,
+      "response_time": 0.0032749176025390625,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into B.Com. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-8",
+      "success": true,
+      "response_time": 0.0036160945892333984,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from NIET about M.Tech programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-9",
+      "success": true,
+      "response_time": 0.0032761096954345703,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Arjun Mehta",
+      "pitch_text": "Hello! This is Arjun from Sharda University. I see your interest in BBA. Let me tell you about our programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-10",
+      "success": true,
+      "response_time": 0.0034189224243164062,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Priya Sharma",
+      "pitch_text": "Hi, I'm calling from Ajeenkya DY Patil University. I noticed you're interested in B.Com. Would you like to know more about our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-11",
+      "success": true,
+      "response_time": 0.0031681060791015625,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Arjun Mehta",
+      "pitch_text": "Hello! This is Arjun from Sharda University. I see your interest in M.Com. Let me tell you about our programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-12",
+      "success": true,
+      "response_time": 0.0033168792724609375,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from NIET about MCA programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-13",
+      "success": true,
+      "response_time": 0.003267049789428711,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from NIET about B.Sc programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-14",
+      "success": true,
+      "response_time": 0.003220081329345703,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Priya Sharma",
+      "pitch_text": "Hi, I'm calling from Ajeenkya DY Patil University. I noticed you're interested in MBA. Would you like to know more about our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-15",
+      "success": true,
+      "response_time": 0.0033779144287109375,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into M.Sc. Let me share our programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-16",
+      "success": true,
+      "response_time": 0.003515005111694336,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Priya Sharma",
+      "pitch_text": "Hi, I'm calling from Ajeenkya DY Patil University. I noticed you're interested in B.Com. Would you like to know more about our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-17",
+      "success": true,
+      "response_time": 0.0033829212188720703,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Anjali Patel",
+      "pitch_text": "Hi, I'm calling from SAGE University. I noticed your interest in MBA. Would you like to explore our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-18",
+      "success": true,
+      "response_time": 0.00335693359375,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from NIET about BBA programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-19",
+      "success": true,
+      "response_time": 0.003492116928100586,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from HIMT about BBA programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-20",
+      "success": true,
+      "response_time": 0.003233194351196289,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Anjali Patel",
+      "pitch_text": "Hi, I'm calling from SAGE University. I noticed your interest in M.Tech. Would you like to explore our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-21",
+      "success": true,
+      "response_time": 0.003284931182861328,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into BCA. Let me share our programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-22",
+      "success": true,
+      "response_time": 0.003579854965209961,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Priya Verma",
+      "pitch_text": "Hi, I'm calling from Noida International University. I noticed you're interested in M.Sc. Would you like to explore our offerings?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-23",
+      "success": true,
+      "response_time": 0.0035839080810546875,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Anjali Patel",
+      "pitch_text": "Hi, I'm calling from SAGE University. I noticed your interest in B.Sc. Would you like to explore our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-24",
+      "success": true,
+      "response_time": 0.003017902374267578,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Anjali Patel",
+      "pitch_text": "Hi, I'm calling from SAGE University. I noticed your interest in B.Tech. Would you like to explore our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-25",
+      "success": true,
+      "response_time": 0.003187894821166992,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Priya Sharma",
+      "pitch_text": "Hi, I'm calling from Ajeenkya DY Patil University. I noticed you're interested in BBA. Would you like to know more about our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-26",
+      "success": true,
+      "response_time": 0.0034639835357666016,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Priya Verma",
+      "pitch_text": "Hi, I'm calling from Noida International University. I noticed you're interested in M.Sc. Would you like to explore our offerings?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-27",
+      "success": true,
+      "response_time": 0.0037598609924316406,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into B.Tech. Let me share our programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-28",
+      "success": true,
+      "response_time": 0.00887298583984375,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Priya Verma",
+      "pitch_text": "Hi, I'm calling from Noida International University. I noticed you're interested in M.Tech. Would you like to explore our offerings?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-29",
+      "success": true,
+      "response_time": 0.008181095123291016,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into B.Tech. Let me share our programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "College-City-30",
+      "success": true,
+      "response_time": 0.0031609535217285156,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into M.Com. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "Empty-language-1",
+      "success": true,
+      "response_time": 0.003476858139038086,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from HIMT about BBA programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Empty-language-2",
+      "success": true,
+      "response_time": 0.003122091293334961,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into MCA. Let me share our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Empty-language-3",
+      "success": true,
+      "response_time": 0.0031881332397460938,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into MCA. Let me share our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Empty-language-4",
+      "success": true,
+      "response_time": 0.0031938552856445312,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Priya Verma",
+      "pitch_text": "Hi, I'm calling from Noida International University. I noticed you're interested in MCA. Would you like to explore our offerings?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Empty-language-5",
+      "success": true,
+      "response_time": 0.0030498504638671875,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Arjun Mehta",
+      "pitch_text": "Hello! This is Arjun from Sharda University. I see your interest in M.Tech. Let me tell you about our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Empty-language-6",
+      "success": true,
+      "response_time": 0.0034079551696777344,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from NIET about MCA programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Empty-language-7",
+      "success": true,
+      "response_time": 0.003370046615600586,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into MCA. Let me share our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Empty-language-8",
+      "success": true,
+      "response_time": 0.0038089752197265625,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Priya Verma",
+      "pitch_text": "Hi, I'm calling from Noida International University. I noticed you're interested in MBA. Would you like to explore our offerings?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Empty-language-9",
+      "success": true,
+      "response_time": 0.00410914421081543,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Anjali Patel",
+      "pitch_text": "Hi, I'm calling from SAGE University. I noticed your interest in M.Com. Would you like to explore our programs?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Empty-language-10",
+      "success": true,
+      "response_time": 0.0044879913330078125,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into B.Sc. Would you like to know more?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Disabled-language-1",
+      "success": true,
+      "response_time": 0.004267215728759766,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Anjali Patel",
+      "pitch_text": "Hi, I'm calling from SAGE University. I noticed your interest in MCA. Would you like to explore our programs?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Disabled-language-2",
+      "success": true,
+      "response_time": 0.0031728744506835938,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Priya Verma",
+      "pitch_text": "Hi, I'm calling from Noida International University. I noticed you're interested in M.Sc. Would you like to explore our offerings?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Disabled-language-3",
+      "success": true,
+      "response_time": 0.0051729679107666016,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Anjali Patel",
+      "pitch_text": "Hi, I'm calling from SAGE University. I noticed your interest in M.Tech. Would you like to explore our programs?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Disabled-language-4",
+      "success": true,
+      "response_time": 0.0035550594329833984,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from NIET about B.Tech programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Disabled-language-5",
+      "success": true,
+      "response_time": 0.0044481754302978516,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into BBA. Let me share our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Disabled-language-6",
+      "success": true,
+      "response_time": 0.004420757293701172,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Priya Sharma",
+      "pitch_text": "Hi, I'm calling from Ajeenkya DY Patil University. I noticed you're interested in B.Tech. Would you like to know more about our programs?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Disabled-language-7",
+      "success": true,
+      "response_time": 0.0025551319122314453,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Priya Sharma",
+      "pitch_text": "Hi, I'm calling from Ajeenkya DY Patil University. I noticed you're interested in M.Sc. Would you like to know more about our programs?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Disabled-language-8",
+      "success": true,
+      "response_time": 0.004277944564819336,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling from HIMT about BCA programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Disabled-language-9",
+      "success": true,
+      "response_time": 0.003667116165161133,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into M.Com. Would you like to know more?",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Disabled-language-10",
+      "success": true,
+      "response_time": 0.004042863845825195,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rajesh Kumar",
+      "pitch_text": "Hello! This is Rajesh from Jain University. I see you're looking into MCA. Let me share our programs.",
+      "has_college": true,
+      "has_city": false
+    },
+    {
+      "test_case": "Real-scenario-1",
+      "success": true,
+      "response_time": 0.003509044647216797,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Priya Sharma",
+      "pitch_text": "Hi, I'm calling from Ajeenkya DY Patil University. I noticed you're interested in BBA. Would you like to know more about our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-2",
+      "success": true,
+      "response_time": 0.004288196563720703,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into B.Tech. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-3",
+      "success": true,
+      "response_time": 0.002811908721923828,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Anjali Patel",
+      "pitch_text": "Hi, I'm calling from SAGE University. I noticed your interest in MBA. Would you like to explore our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-4",
+      "success": true,
+      "response_time": 0.003392934799194336,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into BCA. Would you like to know more?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-5",
+      "success": true,
+      "response_time": 0.0027740001678466797,
+      "status_code": 200,
+      "tts_languages": [
+        "Hinglish",
+        "English"
+      ],
+      "caller_name": "Priya Verma",
+      "pitch_text": "Hi, I'm calling from Noida International University. I noticed you're interested in BBA. Would you like to explore our offerings?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-6",
+      "success": true,
+      "response_time": 0.004374027252197266,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Bangalore for MCA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-7",
+      "success": true,
+      "response_time": 0.0028901100158691406,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Hyderabad for B.Tech.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-8",
+      "success": true,
+      "response_time": 0.0030050277709960938,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Chennai for MBA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-9",
+      "success": true,
+      "response_time": 0.0023429393768310547,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Kolkata for BBA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-10",
+      "success": true,
+      "response_time": 0.003942251205444336,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi, I'm calling about educational opportunities in Ahmedabad for BCA.",
+      "has_college": false,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-11",
+      "success": true,
+      "response_time": 0.002892017364501953,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Kerala. Are you interested in pursuing B.Tech?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "Real-scenario-12",
+      "success": true,
+      "response_time": 0.0025920867919921875,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Punjab. Are you interested in pursuing MBA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "Real-scenario-13",
+      "success": true,
+      "response_time": 0.0026891231536865234,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Haryana. Are you interested in pursuing BBA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "Real-scenario-14",
+      "success": true,
+      "response_time": 0.002605915069580078,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Himachal Pradesh. Are you interested in pursuing BCA?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "Real-scenario-15",
+      "success": true,
+      "response_time": 0.0025289058685302734,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Education Advisor",
+      "pitch_text": "Hi there! I'm calling about educational opportunities in Uttarakhand. Are you interested in pursuing B.Tech?",
+      "has_college": false,
+      "has_city": false
+    },
+    {
+      "test_case": "Real-scenario-16",
+      "success": true,
+      "response_time": 0.002541065216064453,
+      "status_code": 200,
+      "tts_languages": [
+        "Hindi",
+        "English"
+      ],
+      "caller_name": "Priya Sharma",
+      "pitch_text": "Hi, I'm calling from Ajeenkya DY Patil University. I noticed you're interested in BBA. Would you like to know more about our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-17",
+      "success": true,
+      "response_time": 0.002753019332885742,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Rahul Kumar",
+      "pitch_text": "Hello! This is Rahul from MIT. I see you're looking into B.Tech. Let me tell you about our excellent programs.",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-18",
+      "success": true,
+      "response_time": 0.003278017044067383,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Anjali Patel",
+      "pitch_text": "Hi, I'm calling from SAGE University. I noticed your interest in MBA. Would you like to explore our programs?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-19",
+      "success": true,
+      "response_time": 0.003147125244140625,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Meera Sharma",
+      "pitch_text": "Hi, I'm calling from JECRC University. I noticed you're looking into BCA. Would you like to know more?",
+      "has_college": true,
+      "has_city": true
+    },
+    {
+      "test_case": "Real-scenario-20",
+      "success": true,
+      "response_time": 0.0031931400299072266,
+      "status_code": 200,
+      "tts_languages": [
+        "English"
+      ],
+      "caller_name": "Priya Verma",
+      "pitch_text": "Hi, I'm calling from Noida International University. I noticed you're interested in BBA. Would you like to explore our offerings?",
+      "has_college": true,
+      "has_city": true
+    }
+  ]
+}
